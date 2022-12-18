@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+   
+    
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.box{
+    width: 100%;
+ 
+    /* grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,12fr 1fr);
+    row-gap: 12px;
+    column-gap: 12px; */
+}
+
+
+.navbar{
+    font-family: Inter,sans-serif;
+    height: auto;
+    overflow: hidden;
+}
+
+.items{
+
+    height: 150vh;
+    background-color: red;
+}
+
+.ok{
+    height:100vh;
+    background-color: yellow;
+}
+
+/* @media screen and (max-width: 1024px) {
+    .navbar a,button{
+      display: none;
+    }
+    #sign{
+        background-color: yellow;
+    }
+  } */
