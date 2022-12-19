@@ -21,25 +21,6 @@ html {
 .navbar{
     font-family: Inter,sans-serif;
     height: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
-.items{
-
-    height: 150vh;
-    background-color: red;
-}
-
-.ok{
-    height:100vh;
-    background-color: yellow;
-}
-
-/* @media screen and (max-width: 1024px) {
-    .navbar a,button{
-      display: none;
-    }
-    #sign{
-        background-color: yellow;
-    }
-  } */
