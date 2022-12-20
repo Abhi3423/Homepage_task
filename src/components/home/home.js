@@ -9,7 +9,9 @@ import Placement from '../Assets/Placement Handbook.webp';
 export default function home() {
     return (
         <div>
+
             <Navbar></Navbar>
+
             <div className='box1 w-full flex flex-col md:flex-row'>
                 <div className='box11 w-full  md:w-2/5 h-fit  flex flex-col'>
                     <span className='box11-item1 text-5xl md:text-4xl lg:text-6xl font-bold mt-10 text-center md:text-left md:ml-3 lg:ml-24'>Take your Career </span>
@@ -52,6 +54,7 @@ export default function home() {
                     </div>
                 </div>
             </div>
+
             <div className='box2 w-full flex flex-col '>
                 <div className='box21 w-full h-fit text-center mt-6 items-center'>
                     <h1 className='text-xl font-semibold text-gray-800 mt-8 align-center'>A JOURNEY THAT IS TRUSTED</h1>
@@ -85,7 +88,7 @@ export default function home() {
                 </div>
             </div>
         
-            <div className='box3 w-full flex flex-col md:flex-row h-4/5 mt-16'>
+            <div className='box3 w-full flex flex-col md:flex-row mt-16'>
             <div className='box31  w-full md:w-5/12 h-fit flex flex-col'>
                     <div className='box31-item1  w-7/12 md:w-9/12 mt-28 ml-28 md:ml-32 lg:ml-48'>
                     <span className='text-4xl text-gray-600 font-bold w-80'>Download our placement handbook</span>
@@ -120,6 +123,91 @@ export default function home() {
                     <img className=' w-4/5 md:w-64 lg:w-96' src={Placement} alt="Placement Handbook"/>
                 </div>
             </div>
+
+            <div className='box4 mt-16 w-full flex flex-col'>
+                <h1 className='self-center text-xl font-semibold'>EXPLORE OUR OFFERINGS</h1>
+                <h2 className='self-center text-4xl font-bold text-gray-700 mt-8'>Unlimited learning</h2>
+                <h3 className='self-center text-4xl font-bold text-gray-700'>Assured outcomes</h3>
+                <div className='w-full mt-8 h-3/5 grid grid-cols-1 lg:grid-cols-4 gap-12 p-2.5'>
+
+                        <div className='flex flex-col justify-self-center w-4/5 lg:ml-52 xl:ml-72'>
+                           
+                                <div className='bg-blue-700 text-center rounded-t-lg'>
+                                    <br></br>
+                                    <span className='text-white font-semibold'>Certificate Course</span><br></br><br></br>
+                                    <span className='text-white text-xl font-bold'>Full Stack<br></br>Development</span><br></br><br></br>
+                                    <button className='w-6/12 h-1/5 bg-white md:text-sm lg:text-md text-black font-semibold mt-3 rounded-full' href="/">Apply Now</button>
+                                    <br></br>
+                                    <br></br><br></br>
+                                </div>
+                                <div className='bg-black rounded-b-lg text-center'>
+                                    <br></br>
+                                    <br></br>
+                                    <span className='text-gray-500'> &#x2714; Live online classes<br></br> &#x2714; Flexible duration<br></br> &#x2714; EMI from ₹5,800*<br></br> &#x2714; Salary 8-50 LPA <br></br> &#x2714; 800+ hiring partners <br></br> &#x2714; Fully live classes </span><br></br><br></br><br></br>
+                                </div>
+
+                        </div> 
+
+                        <div className='flex flex-col justify-self-center w-4/5 lg:ml-12 xl:ml-24'>
+                           
+                                <div className='bg-blue-700 text-center rounded-t-lg'>
+                                    <br></br>
+                                    <span className='text-white font-semibold'>MIA University, Spain</span><br></br><br></br>
+                                    <span className='text-white text-xl font-bold'>Master's in Computer<br></br>Science</span><br></br><br></br>
+                                    <button className='w-6/12 h-1/5 bg-white md:text-sm lg:text-md text-black font-semibold mt-3 rounded-full' href="/">Apply Now</button>
+                                    <br></br>
+                                    <br></br><br></br>
+                                </div>
+                                <div className='bg-black rounded-b-lg text-center'>
+                                    <br></br>
+                                    <br></br>
+                                    <span className='text-gray-500'> &#x2714; Live online classes<br></br> &#x2714; Dual alumni status<br></br> &#x2714; EMI from ₹6,800*<br></br> &#x2714; 60 ECTS credits <br></br> &#x2714; 800+ hiring partners <br></br> &#x2714; Lifetime placement <br></br>assistance </span><br></br><br></br>
+                                </div>
+                                  
+                        </div> 
+
+                        <div className='flex flex-col justify-self-center w-4/5 lg:mr-28 xl:mr-24'>
+                           
+                                <div className='bg-blue-700 text-center rounded-t-lg'>
+                                    <br></br>
+                                    <span className='text-white font-semibold'>Certificate Course</span><br></br><br></br>
+                                    <span className='text-white text-xl font-bold'>Certificate Course in<br></br>Data Science</span><br></br><br></br>
+                                    <button className='w-6/12 h-1/5 bg-white md:text-sm lg:text-md text-black font-semibold mt-3 rounded-full' href="/">Apply Now</button>
+                                    <br></br>
+                                    <br></br><br></br>
+                                </div>
+                                <div className='bg-black rounded-b-lg text-center'>
+                                    <br></br>
+                                    <br></br>
+                                    <span className='text-gray-500'> &#x2714; Live online classes<br></br> &#x2714; Professional certificate<br></br> &#x2714; EMI from ₹5,500*<br></br> &#x2714; Interview preparation <br></br> &#x2714; 800+ hiring partners <br></br> &#x2714; Lifetime placement <br></br> assistance </span><br></br><br></br>
+                                </div>
+                                  
+                        </div> 
+
+
+                        <div className='flex flex-col justify-self-center w-4/5 lg:mr-60 xl:mr-72'>
+                           
+                                <div className='bg-blue-700 text-center rounded-t-lg'>
+                                    <br></br>
+                                    <span className='text-white font-semibold'>Pay After Placement</span><br></br><br></br>
+                                    <span className='text-white text-xl font-bold'>Full Stack<br></br>Development</span><br></br><br></br>
+                                    <button className='w-6/12 h-1/5 bg-white md:text-sm lg:text-md text-black font-semibold mt-3 rounded-full' href="/">Apply Now</button>
+                                    <br></br>
+                                    <br></br><br></br>
+                                </div>
+                                <div className='bg-black rounded-b-lg text-center'>
+                                    <br></br>
+                                    <br></br>
+                                    <span className='text-gray-500'> &#x2714; Live online classes<br></br> &#x2714; Fully live classes<br></br> &#x2714; Pay after placement<br></br> &#x2714; Salary 5-40 LPA <br></br> &#x2714; 800+ hiring partners <br></br> &#x2714; Soft skills training </span><br></br><br></br><br></br>
+                                </div>
+                                  
+                        </div> 
+
+
+                </div>
+            </div>
+
+            
         </div>
     )
 }
