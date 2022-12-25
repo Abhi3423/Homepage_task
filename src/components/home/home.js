@@ -1,6 +1,7 @@
 import React from 'react'
 import "./home.css"
 import Navbar from '../navbar/navbar';
+import Footer from '../footer/footer';
 import pcgif from '../Assets/programming-computer.gif';
 import recaptcha from '../Assets/recaptcha.svg';
 import Hires from '../Assets/Hiring_companies.webp';
@@ -220,7 +221,7 @@ export default function home() {
                 </div>
 
                 <div className='flex flex-col'>
-                    <img className='w-12 md:w-16 lg:w-20' src='https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62fcb40be43d3b0b49038ff3_perspective_matte%209.webp' alt=''/>
+                    <img className='w-12 md:w-16 lg:w-20' src='https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62fcb40b003ceb3907db4aae_perspective_matte%2010-p-500.webp' alt=''/>
                     <span className='font-semibold text-gray-200 text-sm md:text-base lg:text-lg mt-4'>Dedicated placement team</span>
                     <span className='text-base text-gray-300 mt-4'>A team of warriors ensure your profile reaches top companies.</span>
                     <br></br><br></br>
@@ -228,14 +229,14 @@ export default function home() {
                 </div>
 
                 <div className='flex flex-col'>
-                    <img className='w-12 md:w-16 lg:w-20' src='https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62fcb40be43d3b0b49038ff3_perspective_matte%209.webp' alt=''/>
+                    <img className='w-12 md:w-16 lg:w-20' src='https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62fcb40ba604ceccd9189191_perspective_matte%2011-p-500.webp' alt=''/>
                     <span className='font-semibold text-gray-200 text-sm md:text-base lg:text-lg mt-4'>Unlimited Interview Practice</span>
                     <span className='text-base text-gray-300 mt-4'>Gain confidence with unlimited mock interviews before the real interview.</span>
                     <br></br>
                 </div>
 
                 <div className='flex flex-col'>
-                    <img className='w-12 md:w-16 lg:w-20' src='https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62fcb40be43d3b0b49038ff3_perspective_matte%209.webp' alt=''/>
+                    <img className='w-12 md:w-16 lg:w-20' src='https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62fcb40bf65b24c0a2698bc2_Invite_perspective_matte_s-p-500.webp' alt=''/>
                     <span className='font-semibold text-gray-200 text-sm md:text-base lg:text-lg mt-4'>Lifelong support</span>
                     <span className='text-base text-gray-300 mt-4'>Newton School does not end with the course. Your journey with us goes beyond any course.</span>
                     <br></br>
@@ -256,10 +257,23 @@ export default function home() {
               </div>
             </div>
             
-            <div className='box7 w-full flex flex-col mt-8'>
-               <h1 className='self-center font-semibold'>MAKING A BUZZ, FOR THE RIGHT REASONS</h1>
-               <h2 className='self-center font-bold text-gray-700 text-3xl mt-4'>In the news</h2>
+            <div className='box7 w-full flex lg:flex-col md:flex-row flex-col mt-8'>
+               <div className='self-center'>
+               <h1 className='font-bold text-gray-800 lg:ml-0 md:ml-20 ml-0'>MAKING A BUZZ, FOR THE RIGHT REASONS</h1>
+               <h2 className='font-bold text-gray-700 text-3xl mt-4 lg:ml-20 md:ml-32 ml-20'>In the news</h2>
+               </div>
+               <div className='self-center flex lg:flex-row md:flex-col flex-row lg:gap-16 md:gap-4 gap-4 lg:ml-0 md:ml-60 ml-0 mt-12'>
+                <a className="self-center" href="/"><img className="w-24" src="https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62e8d2ea218fb719136895f0_5847e9aacef1014c0b5e4828.webp" alt=""/></a>
+                <a href="/"><img className="w-24" src="https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62e8d2ea218fb741346895ee_Financial-Express-Logo_webp.webp" alt=""/></a>
+                <a className="self-center" href="/"><img className="w-24" src="https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62e8d2ea218fb790cc6895f2_The_Times_of_India_Logo_full.webp" alt=""/></a>
+                <a className="self-center" href="/"><img className="w-24" src="https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62fcb0da012c935f88d35e9a_TheHindu.webp" alt=""/></a>
+                <a className="self-center" href="/"><img className="w-24" src="https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62e8d2ea218fb76ade6895eb_logo_mob.webp" alt=""/></a>
+                <a href="/"><img className="w-20" src="https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62e8d2ea218fb740cd6895ec_HCL-TBI-partnership-logo_png_webp.webp" alt=""/></a>
+                <a className="self-center" href="/"><img className="w-24" src="https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62e8d2ea218fb775f16895ed_logo.webp" alt=""/></a>
+               </div>
             </div>
+
+            <Footer></Footer>
         </div>
     )
 }

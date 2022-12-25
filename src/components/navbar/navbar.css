@@ -10,17 +10,11 @@ html {
 
 .box{
     width: 100%;
- 
-    /* grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(2,12fr 1fr);
-    row-gap: 12px;
-    column-gap: 12px; */
 }
 
 
 .navbar{
     font-family: Inter,sans-serif;
     height: auto;
-    /* overflow: hidden; */
 }
 
