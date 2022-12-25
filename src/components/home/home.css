@@ -18,3 +18,19 @@ html {
     
 }
 
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+} 
+.card {
+      transform: translate3d(-5.028%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
+      transform-style: preserve-3d; 
+      width: 50%;
+      height: 150px;
+      background-color: blue;
+      margin-left: 20px;
+      display: inline-block;
+    }
+
