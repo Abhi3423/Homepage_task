@@ -36,14 +36,14 @@ export default function home() {
                             <br></br>
                             Email
                             <br></br>
-                            <input className='border-2 border-gray-300 border-solid w-8/12 mt-2 indent-2' style={{"height":"6vh"}} type="text" placeholder='Enter email' name="name" />
+                            <input className='border-2 border-gray-300 border-solid w-8/12 mt-2 indent-2' style={{"height":"6vh"}} type="email" placeholder='Enter email' name="name" />
                         </label>
                         <br></br>
                         <label>
                             <br></br>
                             Phone Number
                             <br></br>
-                            <input className='border-2 border-gray-300 border-solid w-8/12 mt-2 indent-2' style={{"height":"6vh"}} type="text" placeholder='+91' name="Number" />
+                            <input className='border-2 border-gray-300 border-solid w-8/12 mt-2 indent-2' style={{"height":"6vh"}} type="number" placeholder='+91' name="Number" />
                         </label>
                         <br></br>
                         <br></br>
@@ -104,14 +104,14 @@ export default function home() {
                             <br></br>
                             Email Address
                             <br></br>
-                            <input className='border-2 bg-gray-200 border-solid w-full mt-2 indent-2 rounded-full' style={{"height":"6vh"}} type="text" name="name" />
+                            <input className='border-2 bg-gray-200 border-solid w-full mt-2 indent-2 rounded-full' style={{"height":"6vh"}} type="email" name="email" />
                         </label>
                         <br></br>
                         <label>
                             <br></br>
                             Phone
                             <br></br>
-                            <input className='border-2 bg-gray-200 border-solid w-full mt-2 indent-2 rounded-full' style={{"height":"6vh"}} type="text" name="Number" />
+                            <input className='border-2 bg-gray-200 border-solid w-full mt-2 indent-2 rounded-full' style={{"height":"6vh"}} type="number" name="Number" />
                         </label>
                         <br></br>
                         <br></br>
@@ -207,7 +207,59 @@ export default function home() {
                 </div>
             </div>
 
+            <div className='box5 w-full flex flex-col bg-black'>
+              <h1 className='self-center font-bold text-xl text-gray-200 mt-8'>WELCOME TO THE OUTCOME POWERHOUSE</h1>
+              <h2 className='self-center font-bold text-2xl md:text-5xl text-gray-200 mt-4'>Your recipe for a rockstar career</h2>
+              <div className='self-center w-8/12 grid grid-cols-2 gap-16 mt-12'>
+                <div className='flex flex-col'>
+                    <img className='w-12 md:w-16 lg:w-20' src='https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62fcb40be43d3b0b49038ff3_perspective_matte%209.webp' alt=''/>
+                    <span className='font-semibold text-gray-200 text-sm md:text-base lg:text-lg mt-4'>Personal guidance</span>
+                    <span className='text-base text-gray-300 mt-4'>Get groomed by experienced software developers who are working in the top companies.</span>
+                    <br></br>
+                    <hr></hr>
+                </div>
+
+                <div className='flex flex-col'>
+                    <img className='w-12 md:w-16 lg:w-20' src='https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62fcb40be43d3b0b49038ff3_perspective_matte%209.webp' alt=''/>
+                    <span className='font-semibold text-gray-200 text-sm md:text-base lg:text-lg mt-4'>Dedicated placement team</span>
+                    <span className='text-base text-gray-300 mt-4'>A team of warriors ensure your profile reaches top companies.</span>
+                    <br></br><br></br>
+                    <hr></hr>
+                </div>
+
+                <div className='flex flex-col'>
+                    <img className='w-12 md:w-16 lg:w-20' src='https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62fcb40be43d3b0b49038ff3_perspective_matte%209.webp' alt=''/>
+                    <span className='font-semibold text-gray-200 text-sm md:text-base lg:text-lg mt-4'>Unlimited Interview Practice</span>
+                    <span className='text-base text-gray-300 mt-4'>Gain confidence with unlimited mock interviews before the real interview.</span>
+                    <br></br>
+                </div>
+
+                <div className='flex flex-col'>
+                    <img className='w-12 md:w-16 lg:w-20' src='https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62fcb40be43d3b0b49038ff3_perspective_matte%209.webp' alt=''/>
+                    <span className='font-semibold text-gray-200 text-sm md:text-base lg:text-lg mt-4'>Lifelong support</span>
+                    <span className='text-base text-gray-300 mt-4'>Newton School does not end with the course. Your journey with us goes beyond any course.</span>
+                    <br></br>
+                </div>
+
+              </div>
+              <br></br>
+            </div>
             
+            <div className='box6 w-full flex flex-col mt-12 bg-yellow-200' style={{"height":"150vh"}}>
+              <h1 className='self-center font-semibold text-black text-xl'>THE NEWTON FAMILY</h1>
+              <h2 className='self-center font-bold text-gray-700 text-2xl md:text-4xl mt-4'>Be a part of the new-age tech generation</h2>
+              <div className='self-center grid grid-cols-3 gap-1'>
+                <div className='box1 flex flex-col'>
+                    <div className='flex flex-row'></div>
+                    <p>Hello Connections!<br></br>I am thrilled to announce that I've started my professional journey with Mobileum as Associate Software Engineer.<br></br>I would like to thank my family and friends for their constant support and also the entire team of Newton School for providing this amazing opportunity to kickstart my career.<br></br>Looking forward to a great learning experience!</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className='box7 w-full flex flex-col mt-8'>
+               <h1 className='self-center font-semibold'>MAKING A BUZZ, FOR THE RIGHT REASONS</h1>
+               <h2 className='self-center font-bold text-gray-700 text-3xl mt-4'>In the news</h2>
+            </div>
         </div>
     )
 }
