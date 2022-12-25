@@ -258,7 +258,7 @@ export default function home() {
             
             <div className='box7 w-full flex flex-col mt-8'>
                <h1 className='self-center font-semibold'>MAKING A BUZZ, FOR THE RIGHT REASONS</h1>
-               <h2 className='self-center font-bold text-gray-700 text-3xl mt-4'>In the news</h2>
+               <h2 className='self-center font-bold text-gray-700 text-3xl mt-8'>In the news</h2>
             </div>
         </div>
     )
