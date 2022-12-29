@@ -16,7 +16,7 @@ export default function Home() {
 
             <Navbar></Navbar>
 
-            <div className='box1 w-full flex flex-col md:flex-row'>
+            <div className='box1 w-full flex flex-col md:flex-row mt-16'>
                 <div className='box11 w-full  md:w-2/5 h-fit  flex flex-col'>
                     <span className='box11-item1 text-5xl md:text-4xl lg:text-6xl font-bold mt-10 text-center md:text-left md:ml-3 lg:ml-24'>Take your Career </span>
                     <span className='box11-item2 text-5xl md:text-4xl lg:text-6xl font-bold text-center md:text-left md:ml-3 lg:ml-24'>to the next level</span>
@@ -249,7 +249,7 @@ export default function Home() {
                 <br></br>
             </div>
 
-            <div className='box6 w-full flex flex-col mt-12' style={{ "height": "200vh" }}>
+            {/* <div className='box6 w-full flex flex-col mt-12' style={{ "height": "200vh" }}>
                 <h1 className='self-center font-semibold text-black text-xl'>THE NEWTON FAMILY</h1>
                 <h2 className='self-center font-bold text-gray-700 text-2xl md:text-4xl mt-4'>Be a part of the new-age tech generation</h2>
                 <div class="scrolling-wrapper mt-8 w-full">
@@ -352,7 +352,7 @@ export default function Home() {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
             <div className='box7 w-full flex lg:flex-col md:flex-row flex-col mt-8'>
                 <div className='self-center'>

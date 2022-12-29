@@ -7,10 +7,16 @@ export default function Navbar({showNav, setShowNav}) {
   const [isHovering, setIsHovering] = useState(false);
 
   const handleMouseOver = () => {
+
+    document.getElementById("beforenewhover").style.display = "none";
+    document.getElementById("afternewhover").style.display = "flex";
     setIsHovering(true);
   };
 
   const handleMouseOut = () => {
+   
+    document.getElementById("beforenewhover").style.display = "flex";
+    document.getElementById("afternewhover").style.display = "none";
     setIsHovering(false);
   };
 
@@ -20,13 +26,15 @@ export default function Navbar({showNav, setShowNav}) {
     {showNav && <div className="w-full bg-black text-white py-10">    
         <div className='navbar sticky top-0 p-5 flex flex-row gap-8 items-center bg-black -mt-28'>
           <a className='text-white font-medium lg:ml-64 md:ml-80 ml-8' href="/">
-          <img className="w-52" src="https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62e8d2ea218fb73fa66895dd_88x37.webp" alt=""/>
+          <img className="w-52" src = "https://global-uploads.webflow.com/62e8d2ea218fb7676b6892a6/62e8d2ea218fb73fa66895dd_88x37.webp" alt=""/>
           </a>
           <button className="rounded-lg text-white ml-32 md:ml-0" onClick={() => setShowNav(false)}><img className='hover:bg-white' src={cross} alt="" /></button>
         </div>  
         <div className='w-full flex flex-col gap-4 items-center'>
-          <div className='flex flex-row'>
-          <a className='text-gray-400 hover:text-white' href="/">Courses <img onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} className='w-8 ml-4' src={down} alt=''/></a>
+          <div className='flex flex-col'>
+          <a className='text-gray-400 hover:text-white' href="/">Courses</a>
+          <img id="beforenewhover" onClick={handleMouseOver} className='w-8 ml-4 mt-2 cursor-pointer' src={down} alt=''/>
+          <img id="afternewhover" onClick={handleMouseOut} className='w-8 ml-4 mt-2 cursor-pointer' src={down} alt=''/>
           </div>
           {isHovering && (
           <div className='flex flex-col gap-4 justify-center'>

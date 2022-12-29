@@ -8,12 +8,16 @@ html {
     box-sizing: inherit;
 }
 
-.box{
+.nbox{
+    top: 0;
     width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 
 .navbar{
+    top: 0;
     font-family: Inter,sans-serif;
     height: auto;
 }
